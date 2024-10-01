@@ -1,0 +1,10 @@
+*, html{
+    font-family: system-ui;
+    margin: 0;
+}
+.nav-container{
+    background-color: darkorange;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
