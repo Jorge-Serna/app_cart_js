@@ -8,3 +8,10 @@
     justify-content: space-between;
     align-content: center;
 }
+.container{
+    width: 65rem;
+    margin: 0 auto;
+}
+.main-title{
+    text-align: center;
+}
