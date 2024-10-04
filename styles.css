@@ -2,16 +2,39 @@
     font-family: system-ui;
     margin: 0;
 }
+nav{
+    background-color: darkorange;
+}
 .nav-container{
     background-color: darkorange;
+    margin: 0 2rem;
+    padding: 1rem 0;
     display: flex;
     justify-content: space-between;
     align-content: center;
 }
-.container{
+.nav-list-items{
+    display: flex;
+}
+.nav-list-items li{
+    list-style: none;
+}
+.container, .offers{
     width: 65rem;
     margin: 0 auto;
 }
-.main-title{
+.centered-text{
     text-align: center;
+}
+nav, .intro-text, .offers-bg, h1, h2{
+    margin-bottom: 2rem;
+}
+.offers-bg{
+    background-color: darkgray;
+}
+.offers{ 
+    padding: 1rem 0;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-evenly;
 }
